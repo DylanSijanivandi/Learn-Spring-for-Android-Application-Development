@@ -15,12 +15,12 @@ fun ifStatement() {
 fun ifExpression() {
     val a = 5
     val b = 4
-    val max = if (a > b) a else b
+    val max = if (a > b) a else b// if "a" is bigger than "b", set "max" to a, else set "max" to b
 }
 
 fun whenStatement() {
     val x = 1
-    when (x) {
+    when (x) {// switch statement
         1 -> println("1")
         2 -> println("2")
         else -> {
@@ -29,7 +29,9 @@ fun whenStatement() {
     }
 }
 
-fun whenExpression(x: Int) = when (x) {
+fun whenExpression(x: Int) = when (x) {// A function that is declared similar to a variable,
+    // this is a feature of functional programming.
+        // var myVar = whenExpression(Int x)
     1 -> println("1")
     2 -> println("2")
     else -> {

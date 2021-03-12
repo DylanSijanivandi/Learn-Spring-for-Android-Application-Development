@@ -16,7 +16,7 @@ class A {
 }
 
 fun outer() {
-    fun local() {
+    fun local() {// A local function is a nested function.
         println("Local")
     }
 

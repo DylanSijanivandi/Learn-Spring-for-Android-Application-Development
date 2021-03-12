@@ -7,8 +7,9 @@ package com.packt.learn_spring_for_android_application_development.chapter2
 
 
 var number = 1
-val string = "number is $number"
+val string = "number is $number"// in Java this would be "number is" + number
 
 
 val name = "Igor"
 val lengthOfName = "length is ${name.length} and number is $number"
+// in Java this would be "length is" + name.length
